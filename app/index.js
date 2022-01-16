@@ -1,11 +1,15 @@
-import React from "react";
+import AppContainer from './App.container';
+import { Provider} from 'react-redux';
+import { initStore } from './redux/store';
 
-const app = () => {
+const store = initStore();
+
+function NoteTaker() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Provider store={store}>
+      <AppContainer />
+    </Provider>
   );
 }
 
-export default app;
+export default NoteTaker;

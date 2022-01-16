@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { TextInput } from 'react-native';
 import style from './TextArea.component.style';
 
 const TextArea = (props) => {
-  const [text, setText] = useState('');
-  const {...extraProps} = props;
-
+  const {text, setText, ...extraProps} = props;
   return (
     <TextInput
       {...extraProps}

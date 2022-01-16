@@ -18,6 +18,7 @@ export default StyleSheet.create({
     marginBottom: 8,
     alignSelf: 'stretch',
     overflow: 'visible',
+     ...shadowSm,
   },
   inputLabel: {
     alignSelf: 'flex-start',
@@ -31,6 +32,8 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     flex: 1,
+    backgroundColor: theme.BG_ACTION_BAR_LIGHT_THEME,
+    borderRadius: theme.BORDER_INPUT_RADIUS,
   },
   saveBtn: {
     padding: 10,
@@ -45,6 +48,6 @@ export default StyleSheet.create({
   },
   descTextArea: {
     ...textAreaStyle,
-    flex: 1,
+    // flex: 1,
   }
 });

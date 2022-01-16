@@ -8,7 +8,7 @@ export const shadowSm = {
     height: 1,
   },
   shadowOpacity: 0.01,
-  elevation: 2,
+  elevation: 1,
 }
 
 
@@ -28,13 +28,14 @@ export const textInputStyle = {
 
 export const textAreaStyle = {
   ...textInputStyle,
-  lineHeight: 21,
   overflow: 'scroll',
+  lineHeight: 21,
+  paddingTop: 10,
 }
 
 export const inputLabelStyle = {
     fontSize: theme.TEXT_BASE,
     fontWeight: theme.FONT_SEMIBOLD,
     marginHorizontal: theme.MARGIN_INPUT_HEADING_HORIZONTAL,
-    marginBottom: 1,
+    marginBottom: 2,
 }
