@@ -1,11 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, AppRegistry } from 'react-native';
-import Home from './app/components/Home/Home.component';
+import HomePage from './app/pages/Home.page';
+import { connect } from 'react-redux';
+import { Provider} from 'react-redux';
+import initStore  from './app/redux/store';
+
+const store = initStore();
 
 function App() {
+  console.log(store.getState());
   return (
-    <Home />
+    <Provider store={store}>
+      <HomePage />
+    </Provider>
   );
 }
 
-export default App;
+export default connect(null, null)(App);
