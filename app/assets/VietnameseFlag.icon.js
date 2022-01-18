@@ -1,0 +1,86 @@
+import React from "react";
+import Svg, { Path } from "react-native-svg";
+
+const VietnameseFlag = (props) => (
+  <Svg
+    id="Layer_1"
+    xmlns="http://www.w3.org/2000/svg"
+    x={0}
+    y={0}
+    viewBox="0 0 55.2 38.4"
+    style={{
+      enableBackground: "new 0 0 55.2 38.4",
+    }}
+    xmlSpace="preserve"
+    {...props}
+  >
+    <Path
+      d="M3.01 0h49.17c1.66.01 3.01 1.37 3.01 3.03v32.33c0 1.66-1.35 3.02-3.01 3.03H3.01C1.35 38.39 0 37.03 0 35.37V3.03C0 1.37 1.35.01 3.01 0z"
+      style={{
+        fill: "#da251d",
+      }}
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="m27.6 11.52-2.37 7.3 4.87 1.58-2.5-8.88zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="m27.6 11.52 2.37 7.3-4.87 1.58 2.5-8.88zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="M34.9 16.83h-7.68v5.12l7.68-5.12zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="m34.9 16.83-6.21 4.51-3.01-4.14 9.22-.37zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="m32.11 25.41-2.37-7.3-4.87 1.58 7.24 5.72zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="M32.11 25.41 25.9 20.9l3.01-4.14 3.2 8.65zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="M20.3 16.83h7.68v5.12l-7.68-5.12zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="m20.3 16.83 6.21 4.51 3.01-4.14-9.22-.37zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="m23.09 25.41 2.37-7.3 4.87 1.58-7.24 5.72zm0 0z"
+    />
+    <Path
+      style={{
+        fill: "#FFFF00",
+      }}
+      d="m23.09 25.41 6.21-4.51-3.01-4.14-3.2 8.65zm0 0z"
+    />
+  </Svg>
+);
+
+export default VietnameseFlag;

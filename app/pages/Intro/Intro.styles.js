@@ -1,4 +1,3 @@
-import { StyleSheet } from "react-native";
 import theme from "../../styles/theme.styles";
 import commonStyles from "../../styles/common.styles";
 
@@ -7,7 +6,7 @@ const commons = {
     alignItems: "center",
     width: "100%",
     height: "100%",
-    paddingTop: 80,
+    
   },
   brandName: {
     fontSize: theme.FONT_SIZE_HEADING,
@@ -62,7 +61,7 @@ const variants = {
   },
 };
 
-export default StyleSheet.create({
+export default {
   ...commons,
   ...variants,
-});
+};
