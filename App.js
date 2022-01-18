@@ -1,11 +1,11 @@
 // import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import IntroPage from "./app/pages/Intro/Intro.page";
+import LogInPage from "./app/pages/LogIn/LogIn.page";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <IntroPage />
+      <LogInPage />
     </View>
   );
 }

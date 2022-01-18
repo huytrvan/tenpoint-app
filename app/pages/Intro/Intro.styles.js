@@ -1,34 +1,22 @@
 import theme from "../../styles/theme.styles";
-import commonStyles from "../../styles/common.styles";
+import commons from "../../styles/commons.styles";
 
-const commons = {
+const base = {
   container: {
-    alignItems: "center",
-    width: "100%",
-    height: "100%",
-    
+    ...commons.containerDefault,
   },
   brandName: {
-    fontSize: theme.FONT_SIZE_HEADING,
-    fontWeight: theme.FONT_WEIGHT_ACTION,
+    ...commons.header,
   },
   introText: {
-    textAlign: "center",
-    marginTop: theme.SPACING_BASE,
-    marginBottom: theme.SPACING_2XL,
-    fontSize: theme.FONT_SIZE_LG,
-    color: theme.COLOR_PRIMARY_LIGHT_BG,
+    ...commons.descText,
   },
   btn: {
-    marginBottom: theme.SPACING_SM,
-    borderRadius: 5,
-    paddingVertical: theme.SPACING_MD,
-    width: "100%",
-    borderWidth: 1,
+    ...commons.btn,
   },
   btnText: {
-    textAlign: "center",
-    fontSize: theme.FONT_SIZE_LG,
+    ...commons.btnText,
+    width: "100%",
   },
   linkAction: {
     marginTop: "auto",
@@ -45,7 +33,7 @@ const variants = {
     color: theme.COLOR_ACTION_PRIMARY_LIGHT_BG,
   },
   btnPrimary: {
-    ...commonStyles.shadowSm,
+    ...commons.shadowSm,
     backgroundColor: theme.COLOR_ACTION_PRIMARY_LIGHT_BG,
     borderColor: theme.COLOR_ACTION_PRIMARY_LIGHT_BG,
   },
@@ -62,6 +50,6 @@ const variants = {
 };
 
 export default {
-  ...commons,
+  ...base,
   ...variants,
 };

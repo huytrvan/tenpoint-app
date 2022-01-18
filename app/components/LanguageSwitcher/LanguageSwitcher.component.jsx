@@ -5,7 +5,8 @@ import TriangleDownIcon from "../../assets/TriangleDown.icon";
 import LanguageIcon from "../../assets/Language.icon";
 import UKFlagIcon from "../../assets/UKFlag.icon";
 import VietnameseFlagIcon from "../../assets/VietnameseFlag.icon";
-
+import theme from "../../styles/theme.styles";
+import commons from "../../styles/commons.styles";
 const LanguageSwitcher = (props) => {
   return (
     <View
@@ -26,30 +27,33 @@ const LanguageSwitcher = (props) => {
       >
         <LanguageIcon
           style={{
-            width: 22,
-            height: 22,
+            width: 24,
+            height: 24,
             marginRight: 5,
             color: "#000",
+            strokeWidth: 10,
           }}
         />
         <TriangleDownIcon
           style={{
             width: 8,
             height: 8,
-            color: "#000",
+            color: theme.COLOR_DEFAULT_PRIMARY_LIGHT_BG,
           }}
         />
       </Pressable>
       <View
         style={{
           borderWidth: 1,
-          borderColor: "#000",
+          borderColor: theme.COLOR_DEFAULT_PRIMARY_LIGHT_BG,
           borderRadius: 5,
           position: "absolute",
           padding: 5,
           right: 0,
           top: "45%",
           backgroundColor: "#fff",
+          display: "none",
+          ...commons.shadowSm,
         }}
       >
         <Pressable
