@@ -22,12 +22,12 @@ const containerDefault = {
 const header = {
   fontSize: theme.FONT_SIZE_HEADING,
   fontWeight: theme.FONT_WEIGHT_ACTION,
+  marginBottom: theme.SPACING_BASE,
 };
 const headerDefault = {
   ...header,
   textAlign: "center",
   color: theme.COLOR_ACTION_PRIMARY_LIGHT_BG,
-  // marginBottom: theme.SPACING_BASE,
 };
 
 const btn = {

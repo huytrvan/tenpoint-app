@@ -15,7 +15,7 @@ const LogIn = () => {
         </Pressable>
       </View>
       <Text style={styles.header}>Log In</Text>
-      <Text style={styles.descText}>Continue with:</Text>
+      <Text style={styles.descText}>Log In (or Sign up) with:</Text>
       <Pressable style={[styles.btn, styles.google]}>
         <GoogleIcon style={styles.btnIcon} />
         <Text style={styles.btnText}>| Google</Text>
