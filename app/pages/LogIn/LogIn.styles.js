@@ -21,7 +21,7 @@ const base = {
   navBackBtn: {
     width: 40,
     height: 40,
-    justifyContent: "center",
+    // justifyContent: "center",
     alignItems: "flex-start",
   },
   navBackIcon: {

@@ -22,7 +22,7 @@ const containerDefault = {
 const header = {
   fontSize: theme.FONT_SIZE_HEADING,
   fontWeight: theme.FONT_WEIGHT_ACTION,
-  marginBottom: theme.SPACING_BASE,
+  marginBottom: theme.SPACING_XS,
 };
 const headerDefault = {
   ...header,
