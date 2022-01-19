@@ -1,6 +1,17 @@
 import theme from "./theme.styles";
 
+/* Utilities */
 const shadowSm = {
+  shadowColor: "#7C2D12",
+  shadowOffset: {
+    width: 1,
+    height: 1,
+  },
+  shadowOpacity: 0.02,
+  elevation: 2,
+};
+
+const shadow = {
   shadowColor: "#7C2D12",
   shadowOffset: {
     width: 1,
@@ -10,9 +21,13 @@ const shadowSm = {
   elevation: 3,
 }
 
+/* Commons */
 const container = {
   width: "100%",
   height: "100%",
+  paddingVertical: 50,
+  paddingHorizontal: 25,
+  backgroundColor: theme.BG_COLOR_DEFAULT_PRIMARY,
 };
 const containerDefault = {
   ...container,
@@ -56,6 +71,7 @@ const descText = {
 };
 export default {
   shadowSm,
+  shadow,
   header,
   headerDefault,
   container,
