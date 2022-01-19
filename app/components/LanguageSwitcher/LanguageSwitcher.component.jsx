@@ -5,11 +5,12 @@ import TriangleDownIcon from "../../assets/TriangleDown.icon";
 import LanguageIcon from "../../assets/Language.icon";
 import UKFlagIcon from "../../assets/UKFlag.icon";
 import VietnameseFlagIcon from "../../assets/VietnameseFlag.icon";
+import styles from "./LanguageSwitcher.styles";
 
 const LanguageSwitcher = (props) => {
   return (
     <View style={styles.container}>
-      <Pressable style={styles.toggleBtn}>
+      <Pressable style={styles.toggler}>
         <LanguageIcon style={styles.languageIcon} />
         <TriangleDownIcon style={styles.triangleDownIcon} />
       </Pressable>
