@@ -27,7 +27,7 @@ const headerDefault = {
   ...header,
   textAlign: "center",
   color: theme.COLOR_ACTION_PRIMARY_LIGHT_BG,
-  marginBottom: theme.SPACING_BASE,
+  // marginBottom: theme.SPACING_BASE,
 };
 
 const btn = {
