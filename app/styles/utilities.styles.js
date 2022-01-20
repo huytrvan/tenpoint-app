@@ -1,5 +1,5 @@
 const colors = {
-  WHITE: '#fff',
+  WHITE: "#fff",
   GRAY_50: "#F9FAFB",
   GRAY_100: "#F3F4F6",
   GRAY_200: "#E5E7EB",
@@ -20,6 +20,7 @@ const colors = {
   ORANGE_700: "#C2410C",
   ORANGE_800: "#9A3412",
   ORANGE_900: "#7C2D12",
+  RED_600: "#DC2626",
 };
 
 const fontWeights = {

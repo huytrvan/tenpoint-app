@@ -23,6 +23,7 @@ const LabeledInput = (props) => {
           />
         )}
       />
+      {props.inputError && <Text style={styles.error}>{props.inputError.message}</Text> }
     </View>
   );
 }

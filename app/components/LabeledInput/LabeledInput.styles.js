@@ -20,6 +20,10 @@ const base = {
     marginBottom: theme.SPACING_XXS,
     color: theme.COLOR_DEFAULT_PRIMARY_LIGHT_BG,
   },
+  error: {
+    marginLeft: theme.SPACING_XS,
+    color: theme.COLOR_ERROR_LIGHT_BG,
+  },
 };
 
 const variants = {
